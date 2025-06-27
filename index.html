@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer_Landing-page</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <section class="hero_section">
+        <div class="text_container">
+        <div class="black_hero">
+        <h1>Hi,I am Aditya</h1>
+        <p>Discover the features that will help you grow faster and smarter.</p>
+     <a href="#contact" class="cta-btn">Get Started</a>
+     </div>
+        </div>
+        
+    </section> 
+
+    <!---->
+    <section class="black_box">
+        <h2>WORK,I CAN DO FOR 
+        <span>YOU</span></h2>
+       
+    </section>
+
+    <!---->
+    <section class="work">
+        <div class="grid_item">
+        <div class="card">
+            <div class="image_container">
+                <img src="./web.png" alt="web development">
+            </div>
+            <div class="card_container">
+                <h3>Web Development</h3>
+                <b>Fast Performance</b>
+                <p>Optimized speed to deliver a smooth experience for your users.</p>
+            </div>
+        </div>
+        </div>
+
+        <!---->
+        <div class="grid_item">
+        <div class="card">
+            <div class="image_container">
+                <img src="./mobile.png" alt="App development">
+            </div>
+            <div class="card_container">
+                <h3>App Development</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum facere impedit beatae necessitatibus obcaecati suscipit eius ipsum atque ratione adipisci?</p> -->
+                 <b>Responsive Design</b>
+                 <p>Looks great on all devices from desktop to mobile.</p>
+            </div>
+        </div>
+        </div>
+
+        <!---->
+        <div class="grid_item">
+        <div class="card">
+            <div class="image_container">
+                <img src="./uiux.png" alt="UI/UX development">
+            </div>
+            <div class="card_container">
+                <h3>UI/UX Development</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum facere impedit beatae necessitatibus obcaecati suscipit eius ipsum atque ratione adipisci?</p> -->
+                 <b>Secure & Reliable</b>
+                  <p>Top-level security ensures your data stays safe and sound.</p>
+            </div>
+        </div>
+        </div>
+        <!---->
+        <div class="grid_item">
+        <div class="card">
+            <div class="image_container">
+                <img src="./uiux.png" alt="UI/UX development">
+            </div>
+            <div class="card_container">
+               <p>This project is about creating a simple and attractive landing page using HTML and CSS. The page includes a clear headline, a short introduction about the product or service, a call-to-action button (like "Get Started"), and a section to show key features or benefits. It also has a static</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!---->
+    <section class="bottom_section">
+       <div class="contact">
+        <h2>Contact Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, porro quibusdam. Praesentium nam ex distinctio maxime? Quae aliquam ipsam cum.</p>
+            <p>shingh@gmail.com</p>
+         </div> 
+    
+        
+         <div class="about">
+            <h2>About Me</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, expedita voluptatem. Temporibus blanditiis mollitia ipsam voluptas excepturi voluptatibus ea voluptates.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore atque debitis laboriosam nemo at ducimus sint ratione esse reiciendis. Aperiam.
+            </p>
+         </div>
+    </section>
+    <section id="contact" class="contact-form">
+    <h2>Sign Up Now</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <button type="submit">Join Now</button>
+    </form>
+  </section>
+    <footer>&copy; 2025 Your Company. All rights reserved.</footer>
+</body>
+<script>
+  const cards = document.querySelectorAll('.card_container');
+
+  cards.forEach(function(card) {
+    card.addEventListener('click', function() {
+      alert('Card clicked!');
+      window.location.href = "index2.html";
+    });
+  });
+</script>
+
+</html>
